@@ -4,9 +4,19 @@ let coordenadaFinalY=-50;
 let coordenadaInicialX=0;
 let coordenadaInicialY=0;
 
+//Reto con menos lineas de codigo
+
+
+let resultado = (coordenadaFinalX,coordenadaInicialX,coordenadaFinalY,coordenadaInicialY) => Math.sqrt(Math.pow((coordenadaFinalX-coordenadaInicialX),2)+Math.pow((coordenadaFinalY-coordenadaInicialY),2));
+
+console.log(resultado(70,0,-50,0))
+
+
+ 
+
 //FUNCION
 
-
+/*
 function CalcularDistancia(xinicial,xfinal,yinicial,yfinal){
 
 
@@ -33,14 +43,14 @@ return(distancia);
 
 console.log(CalcularDistancia(0,70,0,-50));
 
-
-
-/*let resultado = (coordenadaFinalX,coordenadaInicialX,coordenadaFinalY,coordenadaInicialY) => Math.sqrt(Math.pow((coordenadaFinalX-coordenadaInicialX),2)+Math.pow((coordenadaFinalY-coordenadaInicialY),2));
-
-console.log(resultado(70,0,-50,0))
 */
 
- 
+
+
+
+
+
+
 
 
 
